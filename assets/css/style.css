@@ -1,66 +1,57 @@
-body{
+body {
     background: #ddd;
 }
-
-.name{
+.name {
     font-size: 25px;
     background: #4aaaa5;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 8px;
     color: #fff;
-    height: 32px;  
+    height: 32px;
     display: inline;
     float: left;
     margin: 0;
     font-weight: bold;
 }
-
-.main-area{
+.main-area {
     margin-left: 10%;
     margin-right: 10%;
     width: 960px;
     background: #ddd;
     /*overflow: auto;*/
 }
-
-.banner-top{
+.banner-top {
     background: #fff;
     height: 40px;
     padding-left: 10%;
     padding-right: 15%;
     overflow: auto;
 }
-
 .banner {
     list-style-type: none;
     margin-right: 20%;
     padding: 0;
 }
-
-.banner-item{
+.banner-item {
     font-size: 18px;
     padding-right: 20px;
     color: #ddd;
     padding-top: 8px;
 }
-
 li a {
     display: inline;
     float: right;
     padding-right: 5px;
     text-decoration: none;
     line-height: 20px;
-
 }
-
-
-.bannertop{
-	display: inline;
+.bannertop {
+    display: inline;
 }
-
-.about-me{
-   /* clear: both;*/
+.about-me {
+    /* clear: both;*/
+    
     float: left;
     width: 630px;
     background: #fff;
@@ -68,8 +59,7 @@ li a {
     padding-right: 20px;
     padding-left: 20px;
 }
-
-.about-me-title{
+.about-me-title {
     border-bottom: solid;
     border-color: #ddd;
     padding-bottom: 2%;
@@ -78,27 +68,21 @@ li a {
     margin-bottom: 30px;
     font-size: 25px;
     margin-top: 30px;
-
 }
-
-
-.bio-text{
+.bio-text {
+    margin: 10px;
     color: #ddd;
 }
-
-
-.profile-pic{
+.profile-pic {
     float: left;
     margin-right: 2%;
 }
-
 .theHR {
-    clear:both;
-    visibility:hidden;
+    clear: both;
+    visibility: hidden;
 }
-
-.connect-with-me{
-    float: right;
+.connect-with-me {
+    float: left;
     width: 250px;
     color: #4aaaa5;
     background: #fff;
@@ -106,8 +90,7 @@ li a {
     margin-left: 20px;
     margin-right: 20px;
 }
-
-.connect-with-me-title{
+.connect-with-me-title {
     font-size: 20px;
     font-weight: bold;
     border-bottom: solid;
@@ -116,14 +99,11 @@ li a {
     margin-bottom: 25px;
     margin-top: 25px;
 }
-
-
-.connect-with-me-images{
+.connect-with-me-images {
     padding-left: 0;
     margin-bottom: 25px;
 }
-
-#copyright{
+#copyright {
     clear: both;
     border-top: solid;
     border-color: #4aaaa5;
@@ -132,25 +112,22 @@ li a {
     text-align: center;
     padding-top: 10px;
 }
-
-.portfolio{
+.portfolio {
     float: left;
     width: 630px;
     background: #fff;
     margin-bottom: 2%;
     padding-right: 20px;
     padding-left: 20px;
-
 }
 /*wrf*/
 
-.portfolio-item{
+.portfolio-item {
     padding-top: 0;
     padding-top: 30px;
     margin-right: 10px;
 }
-
-.form{
+.form {
     float: left;
     width: 630px;
     background: #fff;
@@ -158,17 +135,14 @@ li a {
     padding-right: 20px;
     padding-left: 20px;
 }
-
-#theform{
+#theform {
     color: #ddd;
 }
-
-.form-item{
+.form-item {
     margin-top: 10px;
     width: 100%;
 }
-
-.submit{
+.submit {
     background: #4aaaa5;
     color: #fff;
 }
