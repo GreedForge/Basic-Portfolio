@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="assets/reset.css">
-<link rel="stylesheet" href="assets/styel.css">
+
 <head>
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="assets/css/style.css">
 	<title>Contact</title>
 </head>
 <body>
 
-<nav>
-	<ul class="banner">
-    	<a href="index.html" class="banner-item">About</a>
-   		<a href="portfolio.html" class="banner-item">Portfolio</a>
-   		<a href="contact.html" class="banner-item">Contact</a>
-  	</ul>
-	</nav>
+<section class="banner-top">
+    <h1 class="name">Joseph Jaffe</h1>
+      <nav>
+  
+        <ul class="banner">
+            <li><a href="contact.html" class="banner-item">Contact</a></li>
+            <li><a href="portfolio.html" class="banner-item">Portfolio</a></li>
+            <li><a href="index.html" class="banner-item">About</a></li>
+          </ul>
+      </nav>
+  </section>
 
-<h2>Contact</h2>
-<form>
-  Name<br>
-  <input type="text" name="firstname" value="John Smith">
-  <br>
-  Email<br>
-  <input type="text" name="Email" value="example@gmail.com">
-  <br>
-  Message<br>
-  <input type="text" name="Message">
-  <br>
-  <input type="submit" value="Submit">
-</form>
+<section class="main-area">
 
-	<div id="connect-with-me">Connect With Me</div>
-	<div id="copyright">&copy; Copyright Joseph Jaffe</div>
+<hr class="theHR">
+  
+  <div class="form">
+  <h2 class="about-me-title">Contact</h2>
+    <form id="theform">
+      Name
+      <br>
+      <input type="text" name="firstname" value="John Smith">
+      <br>
+      Email
+      <br>
+      <input type="text" name="Email" value="example@gmail.com">
+      <br>
+      Message
+      <br>
+    </form>
+      <textarea rows="4" cols="50" name="comment" form="theform">
+      Enter comment here...</textarea>
+      <br>
+      <input type="submit" value="Submit">
+   
+    </div>
+
+  <aside class="connect-with-me">
+  <h3 class="connect-with-me-title">Connect With Me</h3>
+    <ul class="connect-with-me-images">
+      <img src="assets/images/linkedin64x64.png">
+      <img src="assets/images/github64x64.png">
+      <img src="assets/images/stackoverflow64x64.png">
+    </ul>
+  </aside>
+</section>
+
+
+<footer id="copyright">&copy;Copyright Joseph Jaffe</footer>
 
 
 </body>
